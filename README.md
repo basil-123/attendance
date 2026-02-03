@@ -2,7 +2,7 @@
 
 This project is an automated attendance system that uses **Face Recognition** to mark attendance and stores the data in a **Supabase (PostgreSQL)** database. It utilizes Deep Learning models (RetinaFace/FaceNet) to detect and verify faces from video feeds.
 
-> **Note:** This project is based on/adapted from the original work by **[]**.
+> **Note:** This project is based on/adapted from the original work by **[https://github.com/serengil]**.
 
 ## 🚀 Features
 - **Face Detection & Recognition:** Uses `DeepFace` (RetinaFace/FaceNet) for high-accuracy recognition.
