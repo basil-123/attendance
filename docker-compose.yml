@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  deepface:
+    image: deepface
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 5002:5002
+    volumes:
+      - ./annotated_frames:C:/app/annotated_frames
+      - ./database:C:/app/database
+    environment:
+      - SUPABASE_URL=${"https://tgikvbcjmipmjhkuyhro.supabase.co"}
+      - SUPABASE_KEY=${"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRnaWt2YmNqbWlwbWpoa3V5aHJvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzczOTM3OTcsImV4cCI6MjA1Mjk2OTc5N30.G47NMiR6QsQHfIJjajCPkPjrr4Omg14hoS78OkhbPIs"}
+    restart: unless-stopped

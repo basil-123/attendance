@@ -1,0 +1,9 @@
+Attendance Record - 2026-02-03 17:06:28.038129
+First 10 seconds:
+- basil
+
+Last 10 seconds (after 10 sec delay):
+- basil
+
+Present in both (real):
+- basil
