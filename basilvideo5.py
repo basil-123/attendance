@@ -16,10 +16,10 @@ output_folder = "annotated_frames"
 capture_duration = 10  # Seconds per capture
 
 # Supabase Configuration
-#SUPABASE_URL = "https://tgikvbcjmipmjhkuyhro.supabase.co"
-SUPABASE_URL = "https://gtbogxalszpurhpwidnh.supabase.co"
-#SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRnaWt2YmNqbWlwbWpoa3V5aHJvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzczOTM3OTcsImV4cCI6MjA1Mjk2OTc5N30.G47NMiR6QsQHfIJjajCPkPjrr4Omg14hoS78OkhbPIs"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd0Ym9neGFsc3pwdXJocHdpZG5oIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzAxMDg0MDgsImV4cCI6MjA4NTY4NDQwOH0.rebVENTEShl0Mh_drYahprBB1VwIgmKSMrcVVhzFBZE"
+
+SUPABASE_URL = "ur id"
+
+SUPABASE_KEY = "Ur KEy"
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 os.makedirs(output_folder, exist_ok=True)
