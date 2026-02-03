@@ -20,7 +20,7 @@ This project is an automated attendance system that uses **Face Recognition** to
 ```text
 attendance/
 ├── saved_models/      # (Ignored) Pre-trained models
-├── basilvideo4.py     # Main script for attendance
+├── basilvideo5.py     # Main script for attendance
 ├── requirements.txt   # (Optional) List of dependencies
 ├── .gitignore         # Config to ignore large files
 └── README.md          # Project documentation
